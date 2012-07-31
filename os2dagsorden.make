@@ -14,7 +14,7 @@ projects[os2web][download][revision] = "dev"
 projects[cmstheme][type] = "theme"
 projects[cmstheme][download][type] = "git"
 projects[cmstheme][download][url] = "git@github.com:bellcom/os2dagsorden-theme.git"
-projects[cmstheme][download][revision] = "dev"
+projects[cmstheme][download][revision] = "master"
 
 ; OS2Web theme base
 projects[omega][subdir] = "contrib"
