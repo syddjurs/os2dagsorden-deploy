@@ -26,6 +26,12 @@ function os2dagsorden_change_block_titles() {
   ))
   ->condition('delta', '-exp-meetings_search-page', '=')
   ->execute();
+
+  db_update('block')->fields(array(
+    'title' => '<none>',
+  ))
+  ->condition('delta', 'menu-sidepane-menu', '=')
+  ->execute();
 }
 
 /**
