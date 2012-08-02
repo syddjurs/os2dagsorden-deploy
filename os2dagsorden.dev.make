@@ -31,6 +31,9 @@ libraries[qtip][directory_name] = "poshy_tip"
 libraries[qtip][destination] = "libraries"
 
 ; OS2Dagsorden contrib modules
+projects[advanced_help][subdir] = "contrib"
+projects[advanced_help][version] = "1.0"
+
 projects[front][subdir] = "contrib"
 projects[front][version] = "2.1"
 

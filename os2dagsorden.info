@@ -20,6 +20,7 @@ dependencies[] = toolbar
 dependencies[] = path
 
 ; contrib modules
+;dependencies[] = advanced_help
 ;dependencies[] = front
 dependencies[] = ctools
 dependencies[] = context
