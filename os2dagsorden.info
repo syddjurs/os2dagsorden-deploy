@@ -78,6 +78,7 @@ dependencies[] = os2dagsorden_ical_meetings_export
 dependencies[] = os2dagsorden_importer
 dependencies[] = os2dagsorden_meetings
 dependencies[] = os2dagsorden_print_meetings
+dependencies[] = os2dagsorden_pdf2htmlex
 
 ;OS2Web Features
 dependencies[] = os2web_settings
