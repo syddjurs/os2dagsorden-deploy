@@ -7,13 +7,13 @@ projects[drupal][version] = "7.12"
 ; OS2Dagsorden modules
 projects[os2web][type] = "module"
 projects[os2web][download][type] = "git"
-projects[os2web][download][url] = "git@github.com:bellcom/os2dagsorden.git"
+projects[os2web][download][url] = "git://github.com/bellcom/os2dagsorden.git"
 projects[os2web][download][revision] = "dev"
 
 ; OS2Dagsorden Theme
 projects[syddjurs_omega_subtheme][type] = "theme"
 projects[syddjurs_omega_subtheme][download][type] = "git"
-projects[syddjurs_omega_subtheme][download][url] = "git@github.com:bellcom/os2dagsorden-theme.git"
+projects[syddjurs_omega_subtheme][download][url] = "git://github.com/bellcom/os2dagsorden-theme.git"
 projects[syddjurs_omega_subtheme][download][revision] = "master"
 
 ; OS2Web theme base
