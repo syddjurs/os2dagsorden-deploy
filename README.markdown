@@ -20,10 +20,13 @@ Forudsætninger
 
 INSTALLATION
 ============
-*Ubuntu / Debian opsætning*
+
+Ubuntu / Debian opsætning
+-------------------------
 sudo apt-get install apache2 php5 mysql-server phpmyadmin git-flow pwgen drush drush-make
 
-*Download af nødvendige filer*
+Download af nødvendige filer
+----------------------------
 
 * SSH til serveren inclusiv din git nøgle "ssh -A [server_navn]"
 * Udfør "cd /var/www/[sitenavn]
