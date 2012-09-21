@@ -62,15 +62,15 @@ Installer Drupal
 ----------------
 
 Fra den nye site folder Installer Drupal 7 med drush /var/www/[sitenavn]/
-Udfør: "drush dl drupal-7.x"
-Udfør: "mv drupal-7.x-dev/ public_html"
+* Udfør: "drush dl drupal-7.x"
+* Udfør: "mv drupal-7.x-dev/ public_html"
 
 Opret et symbolsk link til build folderen. 
-Udfør: "cd public_html"
-Udfør: "ln -s ../../os2dagsorden-deploy/build/latest profiles/os2dagsorden" (fra document / drupal root)
+* Udfør: "cd public_html"
+* Udfør: "ln -s ../../os2dagsorden-deploy/build/latest profiles/os2dagsorden" (fra document / drupal root)
 
 Gå på url'en og installer drupal færdig. Eller brug denne
-Udfør: "drush site-install os2dagsorden --account-name=admin --account-pass=admin --db-url=mysql://[db_bruger]:[db_passwd]@localhost/[db]"
+* Udfør: "drush site-install os2dagsorden --account-name=admin --account-pass=admin --db-url=mysql://[db_bruger]:[db_passwd]@localhost/[db]"
 
 Proceduren er at reroll.sh bruges når prod sitet skal reetableres, eller hvis alt fra dev branch er blevet opdateret til master branch. 
 
