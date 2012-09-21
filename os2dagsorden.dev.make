@@ -124,6 +124,9 @@ projects[views_php][version] = "1.x-dev"
 projects[better_exposed_filters][subdir] = "contrib"
 projects[better_exposed_filters][version] = "3.0-beta1"
 
+projects[edit_own_user_account_permission][subdir] = "contrib"
+projects[edit_own_user_account_permission][version] = "2.0-beta1"
+
 ; LDAP
 projects[ldap][subdir] = "contrib"
 projects[ldap][version] = "1.0-beta11"
@@ -131,5 +134,3 @@ projects[ldap][version] = "1.0-beta11"
 ; Themes
 
 projects[rubik][version] = "4.0-beta8"
-
-
