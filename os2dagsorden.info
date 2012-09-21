@@ -64,6 +64,7 @@ dependencies[] = ldap_authorization
 dependencies[] = ldap_profile
 dependencies[] = ldap_servers
 dependencies[] = ldap_sso
+dependencies[] = edit_own_user_account_permission
 
 ;Development - Disable on prod.
 ;dependencies[] = features_tools
