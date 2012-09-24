@@ -165,4 +165,4 @@ Fontforge mangler URI
 Hvis du får denne fejl ved installation af Fontforge "You must put some 'source' URIs in your sources.list" skal følgende tilføjes til Til debian i /etc/apt/sources.list.d/squeeze-src.list
 
 * Tilføj "deb-src http://ftp.dk.debian.org/debian/ squeeze main"
-* Udfør : "apt-get update bagefter"
+* Udfør : "apt-get update" bagefter
