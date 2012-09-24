@@ -95,10 +95,10 @@ Søg for at ingen at de pakker vi compiler selv er installeet
 
 installer build stuff
 ---------------------
-* sudo apt-get install build-essential
-* sudo apt-get install libpng12-dev libpng3
+* sudo apt-get install build-essential pkg-config cmake
+* sudo apt-get install libpng12-dev libpng3 
 * sudo apt-get build-dep fontforge
-* // sudo apt-get build-dep libpoppler-dev # brugte jeg dog ikke.
+* sudo apt-get build-dep libpoppler-dev
 * sudo mkdir src && cd src
 * sudo wget http://poppler.freedesktop.org/poppler-0.20.4.tar.gz
 
@@ -123,20 +123,21 @@ Download fontforge fra:
 
 Opgrader til gcc4.7
 -------------------
+Dette opgraderer gcc og libc på systemet til versionerne fra testing. Gør det på eget ansvar.
 Lav /etc/apt/sources.list.d/testing.list med dette indhold:
 * # used for gcc upgrade
 * deb http://ftp.dk.debian.org/debian/ testing main
 * Udfør: sudo apt-get update
 * Udfør: sudo apt-get install gcc-4.7 g++-4.7
+* Fjern /etc/apt/sources.list.d/testing.list igen
+* rm /etc/apt/sources.list.d/testing.list
 
 Hent pdf2html
 -------------
-* sudo cd ..
-* sudo mkdir pdf2html
-* sudo cd pdf2html
+* cd ..
 * sudo git clone git://github.com/coolwanglu/pdf2htmlEX.git
 * sudo cd pdf2htmlEX
-* sudo "cmake ." - har du ikke cmake så udfør "sudo apt-get install cmake"
+* sudo cmake .
 * sudo make
 * sudo make install
 
