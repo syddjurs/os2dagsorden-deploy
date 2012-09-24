@@ -64,6 +64,7 @@ Installer Drupal
 
 Fra den nye site folder Installer Drupal 7 med drush /var/www/[sitenavn]/
 * Udfør: "drush dl drupal-7.x"
+* Udfør: "rm -rf public_html"
 * Udfør: "mv drupal-7.x-dev/ public_html"
 
 Opret et symbolsk link til build folderen. 
