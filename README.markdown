@@ -123,8 +123,9 @@ Opgrader til gcc4.7
 Lav /etc/apt/sources.list.d/testing.list med dette indhold:
 * # used for gcc upgrade
 * sudo deb http://ftp.dk.debian.org/debian/ testing main
-* sudo apt-get update
-* sudo apt-get install gcc-4.7 g++-4.7
+
+* Udfør: sudo apt-get update
+* Udfør: sudo apt-get install gcc-4.7 g++-4.7
 
 Hent pdf2html
 -------------
