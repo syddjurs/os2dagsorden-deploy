@@ -140,6 +140,12 @@ Hent pdf2html
 * sudo make
 * sudo make install
 
+Oprydning
+---------
+Efter endt installation kan src biblioteket fjernes. 
+* Udfør "cd"
+* Udfør "sudo rm -rf src"
+
 
 Fejlfinding
 ===========
