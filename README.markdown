@@ -77,9 +77,6 @@ Gå på url'en og installer drupal færdig. Eller brug denne
 
 Proceduren er at reroll.sh bruges når prod sitet skal reetableres, eller hvis alt fra dev branch er blevet opdateret til master branch. 
 
-Efter opdateringen køres [domane_navn]/update.php
-
-HUSK: at aktivere de nødvendige features. 
 
 PDF2HTML
 ========
