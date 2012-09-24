@@ -193,6 +193,7 @@ Permission denied ved hentning af deploy
 ----------------------------------------
 Hvis du får "fatal: could not create work tree dir 'os2dagsorden-deploy'.: Permission denied" skal nedenstående rettigheder sættes på /var/www folderen
 * Udfør "chmod g+rwX /var/www/"
+* Udfør "chown -R root.www-data /var/www/"
 
 PHP 5.4 rettelser
 -----------------
