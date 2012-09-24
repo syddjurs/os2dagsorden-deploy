@@ -69,7 +69,7 @@ Fra den nye site folder Installer Drupal 7 med drush /var/www/[sitenavn]/
 
 Opret et symbolsk link til build folderen. 
 * Udfør: "cd public_html"
-* Udfør: "ln -s ../../os2dagsorden-deploy/build/latest profiles/os2dagsorden" (fra document / drupal root)
+* Udfør: "ln -s /var/www/os2dagsorden-deploy/build/latest profiles/os2dagsorden" (fra document / drupal root)
 
 Gå på url'en og installer drupal færdig. Eller brug denne
 * Udfør: "drush site-install os2dagsorden --account-name=admin --account-pass=admin --db-url=mysql://[db_bruger]:[db_passwd]@localhost/[db]"
