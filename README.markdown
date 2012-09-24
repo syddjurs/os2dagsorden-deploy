@@ -10,7 +10,7 @@ Forudsætninger
 (findes på https://github.com/os2web/create_site_with_db)
 * 3. Os2web-deploy build filerne
 * 4. Rettigheder til www-data (tilføjes med "sudo adduser [brugernavn] www-data). Husk at logge ud.
-* 5. Drush make skal være installeret. http://drupal.org/project/drush_make
+* 5. Drush make skal være installeret. http://drupal.org/project/drush_make (drush dl drush_make-6.x)
 * 6. Apache 2.x with mod_rewrite
 * 7. PHP 5.2.X and APC or XCache
 * 8. MySQL 5.X
