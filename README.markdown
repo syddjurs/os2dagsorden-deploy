@@ -131,8 +131,12 @@ Lav /etc/apt/sources.list.d/testing.list med dette indhold:
 
 Hent pdf2html
 -------------
+* sudo cd ..
+* sudo mkdir pdf2html
+* sudo cd pdf2html
 * sudo git clone git://github.com/coolwanglu/pdf2htmlEX.git
-* sudo cmake .
+* sudo cd pdf2htmlEX
+* sudo "cmake ." - har du ikke cmake så udfør "sudo apt-get install cmake"
 * sudo make
 * sudo make install
 
