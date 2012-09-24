@@ -24,7 +24,7 @@ INSTALLATION
 
 Ubuntu / Debian opsætning
 -------------------------
-sudo apt-get install apache2 php5 mysql-server phpmyadmin pwgen drush php5-ldap
+sudo apt-get install apache2 php5 mysql-server phpmyadmin pwgen drush php5-ldap git
 
 Git-flow (valgfri)
 --------
