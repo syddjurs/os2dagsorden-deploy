@@ -44,19 +44,16 @@ Kør drupal oprettelses scriptet med angivelse af domane navnet på det site du 
 HUSK: Du skal selv skrive dit mysql root kodeord ind i filen i variablen $mysqlpasswd
 
 * SSH til serveren inclusiv din git nøgle "ssh -A [server_navn]"
-* Udfør "cd /var/www/[sitenavn]
+* Udfør "cd /var/www/"
 * Udfør "git clone https://github.com/OS2web/os2dagsorden-deploy.git"
+* Udfør "cd os2dagsorden-deploy"
 * Udfør og ret kodeordet for mysql "vim ./create_site_with_db.php" og gem ved at trykke ESC og herefter :q! + ENTER
-* Udfør "sudo mv ./create_site_with_db.php /usr/local/sbin/"
-* Udfør "sudo chmod +x /usr/local/sbin/create_site_with_db.php"
-* Udfør "sudo /usr/local/sbin/create_site_with_db.php eksempel.dk"
+* Udfør "sudo ./create_site_with_db.php [dit domane]"
 
 Deployment af koden fra GITHub
 ------------------------------
 
-* SSH til serveren inclusiv din git nøgle "ssh -A [server_navn]"
-* Udfør "cd /var/www/[sitenavn]
-* Udfør "git clone https://github.com/OS2web/os2dagsorden-deploy.git"
+* Udfør "cd /var/www/os2dagsorden-deploy"
 
 Kør python scriptet fra det dir som filen ligger i os2dagsorden-deploy folderen
 
