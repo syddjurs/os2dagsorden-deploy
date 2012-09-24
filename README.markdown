@@ -26,6 +26,10 @@ Ubuntu / Debian opsætning
 -------------------------
 sudo apt-get install apache2 php5 mysql-server phpmyadmin pwgen drush php5-ldap
 
+Git-flow (valgfri)
+--------
+Kommer senere
+
 Scripts
 -------
 * os2dagsorden_build.py til nye installationer eller en komplet pull
