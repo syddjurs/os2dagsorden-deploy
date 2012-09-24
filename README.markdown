@@ -24,7 +24,7 @@ INSTALLATION
 
 Ubuntu / Debian opsætning
 -------------------------
-sudo apt-get install apache2 php5 mysql-server phpmyadmin git-flow pwgen drush drush-make
+sudo apt-get install apache2 php5 mysql-server phpmyadmin git-flow pwgen drush drush-make php5-ldap
 
 Scripts
 -------
@@ -194,3 +194,8 @@ PHP 5.4 rettelser
 -----------------
 PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/lib/php5/20100525/suhosin.so' - /usr/lib/php5/20100525/suhosin.so: cannot open shared object file: No such file or directory in Unknown on line 0
 php5-suhosin bruges ikke længere fra PHP 5.4 og frem. Fjern filen med navnet xx-suhosin.ini fra /etc/php5/conf.d/.
+
+No LDAP - ved installation af drupal
+------------------------------------
+WD php: Exception: LDAP Extension Loaded: Failed
+php5-ldap modulet er ikke installeret
