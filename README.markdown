@@ -104,8 +104,10 @@ installer build stuff
 
 Pak ud og configure med:
 ------------------------
+* sudo tar -xvzf poppler-0.20.4.tar.gz
+* cd poppler-0.20.4
 * sudo ./configure --enable-xpdf-headers --enable-zlib --disable-static
-* sudo ake
+* sudo make
 * sudo make install
 
 Download fontforge fra:
