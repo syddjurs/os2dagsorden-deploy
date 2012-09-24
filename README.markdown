@@ -87,30 +87,37 @@ Installation på Ubuntu linux skulle være lige ud af landevejen. Da alle pakker
 Installation
 ------------
 
+Kontrol
+-------
 Søg for at ingen at de pakker vi compiler selv er installeet
-dpkg -l | grep poppler
-dpkg -l | grep fontforge
+* dpkg -l | grep poppler
+* dpkg -l | grep fontforge
 
 installer build stuff
-apt-get install build-essential
-apt-get install libpng12-dev libpng3
-apt-get build-dep fontforge
-# apt-get build-dep libpoppler-dev # brugte jeg dog ikke.
-mkdir src && cd src
-wget http://poppler.freedesktop.org/poppler-0.20.4.tar.gz
+---------------------
+* apt-get install build-essential
+* apt-get install libpng12-dev libpng3
+* apt-get build-dep fontforge
+* //apt-get build-dep libpoppler-dev # brugte jeg dog ikke.
+* mkdir src && cd src
+* wget http://poppler.freedesktop.org/poppler-0.20.4.tar.gz
+
 Pak ud og configure med:
-./configure --enable-xpdf-headers --enable-zlib --disable-static
-make
-make install
+------------------------
+* ./configure --enable-xpdf-headers --enable-zlib --disable-static
+* make
+* make install
 
 Download fontforge fra:
-http://sourceforge.net/projects/fontforge/files/fontforge-source/
+-----------------------
+* http://sourceforge.net/projects/fontforge/files/fontforge-source/
 Pak ud og configure med:
-./configure --disable-static --without-python
-make
-make install
+* ./configure --disable-static --without-python
+* make
+* make install
 
 Opgrader til gcc4.7
+-------------------
 Lav /etc/apt/sources.list.d/testing.list med dette indhold:
 # used for gcc upgrade
 deb http://ftp.dk.debian.org/debian/ testing main
@@ -118,10 +125,11 @@ apt-get update
 apt-get install gcc-4.7 g++-4.7
 
 Hent pdf2html
-git clone git://github.com/coolwanglu/pdf2htmlEX.git
-cmake .
-make
-make install
+-------------
+* git clone git://github.com/coolwanglu/pdf2htmlEX.git
+* cmake .
+* make
+* make install
 
 
 Fejlfinding
