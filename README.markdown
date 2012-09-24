@@ -17,6 +17,7 @@ Forudsætninger
 * 9. Opfylde http://drupal.org/requirements
 * 10. PHP `memory_limit` must be at least `128M` (128MB)
 * 11. PHP `max_execution_time` must be at least `60` (1 minute)
+* 12. En  RSA nøgle til din GIT konto (vejledning: https://help.github.com/articles/generating-ssh-keys)
 
 INSTALLATION
 ============
