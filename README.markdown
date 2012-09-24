@@ -183,3 +183,8 @@ Hvis du får denne fejl ved installation af Fontforge "You must put some 'source
 
 * Tilføj "deb-src http://ftp.dk.debian.org/debian/ squeeze main"
 * Udfør : "apt-get update" bagefter
+
+Permission denied ved hentning af deploy
+----------------------------------------
+Hvis du får "fatal: could not create work tree dir 'os2dagsorden-deploy'.: Permission denied" skal nedenstående rettigheder sættes på /var/www folderen
+* Udfør "chmod g+rwX /var/www/"
