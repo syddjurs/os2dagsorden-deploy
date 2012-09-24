@@ -113,7 +113,10 @@ Pak ud og configure med:
 Download fontforge fra:
 -----------------------
 * http://sourceforge.net/projects/fontforge/files/fontforge-source/
-Pak ud og configure med:
+* Brug gerne nedenstående direkte link, men husk at se efter om der er kommet en nyere version.
+* Udfør "sudo wget http://switch.dl.sourceforge.net/project/fontforge/fontforge-source/fontforge_full-20120731-b.tar.bz2"
+* tar -xvjf fontforge_full-20120731-b.tar.bz2
+* cd fontforge-20120731-b
 * sudo ./configure --disable-static --without-python
 * sudo make
 * sudo make install
