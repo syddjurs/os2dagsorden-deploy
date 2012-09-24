@@ -192,4 +192,4 @@ Hvis du får "fatal: could not create work tree dir 'os2dagsorden-deploy'.: Perm
 PHP 5.4 rettelser
 -----------------
 PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/lib/php5/20100525/suhosin.so' - /usr/lib/php5/20100525/suhosin.so: cannot open shared object file: No such file or directory in Unknown on line 0
-php5-suhosin does not exist for PHP 5.4. Please uninstall the package and remove any “extension=suhosin.so” from your config files.
+php5-suhosin bruges ikke længere fra PHP 5.4 og frem. Fjern filen med navnet xx-suhosin.ini fra /etc/php5/conf.d/.
