@@ -141,11 +141,17 @@ Hent pdf2html
 * sudo make
 * sudo make install
 
-Oprydning
----------
-Efter endt installation kan src biblioteket fjernes. 
-* Udfør "cd"
-* Udfør "sudo rm -rf src"
+CRON
+====
+# syddjurs cron
+10,25,40,55 * * * * wget -O - -q -t 1 
+'http://10.255.1.46/cron.php?cron_key=WZYgGQTXMIokivcN_eJQbubbNE4DQldSZsfQD7-Jke4'
+
+0,15,30,45 * * * * rsync -urp --exclude Batch /mnt/AcadreMMNotify/ 
+/var/www/syddjurs.dk/public_html/sites/default/files/acadre/
+
+Acadre mount eksempel linie til mount i /etc/fstab (kræver "apt-get install cifs-tools")
+//[ip/servernavn]/[folder på acadre server] [local folder] cifs username=USERNAME,password=PASSWORD,ro,error=remount-ro 0 0 
 
 Konfigurering
 =============
@@ -192,6 +198,12 @@ Privat dircetory ændringer
 * sættes til "sites/default/files/acadre"
 * "Default download method" sættes til "Private local files served by Drupal"
 * 
+
+Oprydning
+=========
+Efter endt installation kan src biblioteket fjernes. 
+* Udfør "cd"
+* Udfør "sudo rm -rf src"
 
 Fejlfinding
 ===========
