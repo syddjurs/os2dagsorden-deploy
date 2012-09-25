@@ -149,7 +149,7 @@ Efter endt installation kan src biblioteket fjernes.
 
 Konfigurering
 =============
-p.t. lige i noteform
+p.t. lige i note-form
 
 XML eksempel filer
 ------------------
@@ -171,6 +171,27 @@ Import af Dagsordener og referater. I Acadre format
 kopier alle filerne ind i sites/default/files/acadre direktørier 
 sæt ejer og rettigheder til www-data
 Kør "OS2Dagsorden Meeting import fra admin/config/system/cron
+
+HTML convertering
+-----------------
+4. start html convertion
+could be started using cron OS2Dagsorden PDF to HTML converter
+makes sense to start after acadre meeting create (if the meeting had any PDF files, they'll be converted to HTML on this run), or after you run Adlib cron (OS2Dagsorden AdLib API Module) at least two times (on to schedule the jobs on Adlib server, and second to fetch the PDF files). Then this run will converted fetched PDF files to HTML.
+
+Logning
+-----------
+logning kan ses på admin/config/development/logging
+
+Url encoding
+-------------
+Bullet point oversigten med en "ikke pæn url "?q=meeting/1234/bullet-point/1235" duer ikke (pga den opbrudte url
+Når url'en ændres til den omskrevne / brugervenlige url som alle bruger vil det være i orden.
+
+Privat dircetory ændringer 
+--------------------------
+* sættes til "sites/default/files/acadre"
+* "Default download method" sættes til "Private local files served by Drupal"
+* 
 
 Fejlfinding
 ===========
