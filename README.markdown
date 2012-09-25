@@ -147,6 +147,30 @@ Efter endt installation kan src biblioteket fjernes.
 * Udfør "cd"
 * Udfør "sudo rm -rf src"
 
+Konfigurering
+=============
+p.t. lige i noteform
+
+XML eksempel filer
+------------------
+1. xml import fra /cron
+Der skal bruges 3 excell filer hvis ikke der stilles SOFD webservice til rådighed. 
+Disse placeres i: sites/default/files/acadre_views directory, med navnene:
+* V_web_AcadreGroups.xml
+* V_web_MeetingGroups.xml
+* V_web_Meetings.xml
+
+Importen køres fra cron admin/config/system/cron, med OS2Dagsorden importer module
+
+Adlib server
+-----------
+Ændring af Adlib webservice: sites/all/modules/os2dagsorden_adlib_api/includes/AbLibWS.class.inc
+
+Import af Dagsordener og referater. I Acadre format
+---------------------------------------------------
+kopier alle filerne ind i sites/default/files/acadre direktørier 
+sæt ejer og rettigheder til www-data
+Kør "OS2Dagsorden Meeting import fra admin/config/system/cron
 
 Fejlfinding
 ===========
