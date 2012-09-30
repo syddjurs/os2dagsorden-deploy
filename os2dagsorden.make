@@ -49,6 +49,9 @@ projects[date][version] = "2.5"
 projects[features][subdir] = "contrib"
 projects[features][version] = "1.0"
 
+projects[features_extra][subdir] = "contrib"
+projects[features_extra][version] = "1.0-aplha1"
+
 projects[ftools][subdir] = "contrib"
 projects[ftools][version] = "1.5"
 

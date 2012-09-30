@@ -9,5 +9,5 @@ function os2dagsorden_form_install_configure_form_alter(&$form, $form_state) {
   $form['site_information']['site_name']['#default_value'] = 'OS2Dagsorden';
   $form['update_notifications']['update_status_module']['#default_value'] = array(0,0);
   $form['server_settings']['site_default_country']['#default_value'] = 'DK';
-  $form['admin_account']['account']['name']['#default_value'] = 'admin';
+  $form['admin_account']['account']['name']['#default_value'] = 'root';
 }
