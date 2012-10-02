@@ -231,7 +231,7 @@ Maximum execution time of xx seconds exceeded
 ---------------------------------------------
 
 PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /var/www-sydd/base/includes/bootstrap.inc on line 3265, 
-*Løsning* Set max execution time til f.eks 600 i "/etc/php5/apache2/php.ini". "vim cat /etc/php5/apache2/php.ini"
+*Løsning* Set max execution time til f.eks 600 i "/etc/php5/apache2/php.ini". "vim cat /etc/php5/apache2/php.ini" samt hvis det ikke løser det i sudo nano /etc/php5/cli/php.ini og derefter sudo nano /etc/php5/conf.d/suhosin.ini (Modulet udgår i senrere versionersudo nano /etc/php5/conf.d/suhosin.ini) 
 
 Fontforge mangler URI
 ---------------------
