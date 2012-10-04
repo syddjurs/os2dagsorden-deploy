@@ -205,3 +205,6 @@ Efter endt installation kan src biblioteket fjernes.
 * Udfør "cd"
 * Udfør "sudo rm -rf src"
 
+Fejlfinding
+===========
+fejlfinding er flyttet til Wiki. https://github.com/OS2web/os2dagsorden-deploy/wiki/Troubleshooting
