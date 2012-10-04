@@ -255,3 +255,9 @@ No LDAP - ved installation af drupal
 ------------------------------------
 WD php: Exception: LDAP Extension Loaded: Failed
 php5-ldap modulet er ikke installeret
+
+Store HTML konverteringer gemmes ikke i mysql
+---------------------------------------------
+Udfør: "vim /etc/mysql/my.cnf"
+Ret "max_allowed_packet" til 64
+
