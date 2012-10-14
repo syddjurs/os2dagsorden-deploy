@@ -7,13 +7,13 @@ projects[drupal][version] = "7.12"
 ; OS2Dagsorden modules
 projects[os2web][type] = "module"
 projects[os2web][download][type] = "git"
-projects[os2web][download][url] = "git://github.com/OS2web/os2dagsorden.git"
+projects[os2web][download][url] = "https://github.com/OS2web/os2dagsorden.git"
 projects[os2web][download][revision] = "dev"
 
 ; OS2Dagsorden Theme
 projects[syddjurs_omega_subtheme][type] = "theme"
 projects[syddjurs_omega_subtheme][download][type] = "git"
-projects[syddjurs_omega_subtheme][download][url] = "git://github.com/OS2web/os2dagsorden-theme.git"
+projects[syddjurs_omega_subtheme][download][url] = "https://github.com/OS2web/os2dagsorden-theme.git"
 projects[syddjurs_omega_subtheme][download][revision] = "master"
 
 ; OS2Web theme base
@@ -124,6 +124,7 @@ projects[poshy_tip][version] = "1.0-beta2"
 projects[views][subdir] = "contrib"
 projects[views][version] = "3.x-dev"
 ;projects[views][patch][] = "http://drupal.org/files/1538702-patch-and-tests.patch"
+project[views][patch][] = "https://github.com/OS2web/os2dagsorden/blob/dev/patches/story_319638-using-multiple-contextual-filters.patch"
 
 projects[views_php][subdir] = "contrib"
 projects[views_php][version] = "1.x-dev"
