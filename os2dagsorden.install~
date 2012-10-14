@@ -12,6 +12,14 @@ function os2dagsorden_install_tasks() {
       'run' => INSTALL_TASK_RUN_IF_NOT_COMPLETED,
       'function' => 'os2dagsorden_change_block_titles',
       );
+      
+  $task['apply_patches'] = array(
+      'display_name' => st('Apply patches'),
+      'display' => true,
+      'type' => 'batch',
+      'run' => INSTALL_TASK_RUN_IF_NOT_COMPLETED,
+      'function' => 'os2dagsorden_apply_patches',
+      );
   return $task;
 }
 
@@ -26,12 +34,14 @@ function os2dagsorden_change_block_titles() {
   ))
   ->condition('delta', '-exp-meetings_search-page', '=')
   ->execute();
+}
 
-  db_update('block')->fields(array(
-    'title' => '<none>',
-  ))
-  ->condition('delta', 'menu-sidepane-menu', '=')
-  ->execute();
+/**
+ * The funtion will apply the patches created by Bellcom
+ */
+function os2dagsorden_apply_patches() {
+  shell_exec(DRUPAL_ROOT . '/profiles/os2dagsorden/modules/contrib');
+  shell_exec('patch -p1 < ' . DRUPAL_ROOT . '/profiles/os2dagsorden/modules/os2web/patches/story_319638-using-multiple-contextual-filters.patch');
 }
 
 /**
