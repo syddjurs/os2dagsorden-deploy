@@ -12,6 +12,7 @@ function os2dagsorden_install_tasks() {
       'run' => INSTALL_TASK_RUN_IF_NOT_COMPLETED,
       'function' => 'os2dagsorden_change_block_titles',
       );
+      
   return $task;
 }
 
