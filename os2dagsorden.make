@@ -66,7 +66,7 @@ projects[autologout][version] = "2.0-beta1"
 ;projects[autologout][patch][] = "http://drupal.org/files/autologout-7.x-2.x-dev-fix_own_mesg_on_logout.patch"
 
 projects[background_process][subdir] = "contrib"
-projects[background_process][version] = "1.12"
+projects[background_process][version] = "1.13"
 
 projects[entity][subdir] = "contrib"
 projects[entity][version] = "1.0-rc3"
@@ -84,14 +84,13 @@ projects[prepopulate][subdir] = "contrib"
 projects[prepopulate][version] = "2.x-dev"
 
 projects[progress][subdir] = "contrib"
-projects[progress][version] = "1.3"
-
+projects[progress][version] = "1.4"
 
 projects[strongarm][subdir] = "contrib"
 projects[strongarm][version] = "2.0"
 
 projects[ultimate_cron][subdir] = "contrib"
-projects[ultimate_cron][version] = "1.6"
+projects[ultimate_cron][version] = "1.7"
 
 projects[print][subdir] = "contrib"
 projects[print][version] = "1.1"
