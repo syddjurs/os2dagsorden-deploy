@@ -134,6 +134,9 @@ projects[better_exposed_filters][version] = "3.0-beta1"
 projects[edit_own_user_account_permission][subdir] = "contrib"
 projects[edit_own_user_account_permission][version] = "2.0-beta1"
 
+projects[overlay_paths][subdir] = "contrib"
+projects[overlay_paths][version] = "1.1"
+
 ; LDAP
 projects[ldap][subdir] = "contrib"
 projects[ldap][version] = "1.0-beta11"
