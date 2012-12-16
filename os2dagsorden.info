@@ -78,7 +78,9 @@ dependencies[] = os2dagsorden_adlib_api
 dependencies[] = os2dagsorden_annotator
 dependencies[] = os2dagsorden_ical_meetings_export
 dependencies[] = os2dagsorden_importer
-dependencies[] = os2dagsorden_meetings
+;dependencies[] = os2dagsorden_meetings
+dependencies[] = acadre_esdh
+dependencies[] = os2web_esdh_provider
 dependencies[] = os2dagsorden_print_meetings
 dependencies[] = os2dagsorden_pdf2htmlex
 
