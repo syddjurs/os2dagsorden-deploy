@@ -27,6 +27,11 @@ libraries[qtip][download][url] = "http://vadikom.com/files/poshytip/poshytip-1.1
 libraries[qtip][directory_name] = "poshy_tip"
 libraries[qtip][destination] = "libraries"
 
+libraries[qtip][download][type] = "get"
+libraries[qtip][download][url] = "https://github.com/downloads/dompdf/dompdf/dompdf_0-6-0_beta3.zip"
+libraries[qtip][directory_name] = "dompdf"
+libraries[qtip][destination] = "libraries"
+
 ; OS2Dagsorden contrib modules
 projects[advanced_help][subdir] = "contrib"
 projects[advanced_help][version] = "1.0"
@@ -127,8 +132,8 @@ projects[better_exposed_filters][version] = "3.0-beta1"
 projects[edit_own_user_account_permission][subdir] = "contrib"
 projects[edit_own_user_account_permission][version] = "2.0-beta1"
 
-projects[overlay_paths][subdir] = "contrib"
-projects[overlay_paths][version] = "1.1"
+projects[simplify][subdir] = "contrib"
+projects[simplify][version] = "3.0"
 
 ; LDAP
 projects[ldap][subdir] = "contrib"
