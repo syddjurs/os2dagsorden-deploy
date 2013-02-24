@@ -66,6 +66,8 @@ dependencies[] = ldap_profile
 dependencies[] = ldap_servers
 dependencies[] = ldap_sso
 dependencies[] = edit_own_user_account_permission
+dependencies[] = smtp
+dependencies[] = lightbox2
 
 ;Development - Disable on prod.
 ;dependencies[] = features_tools
@@ -83,6 +85,7 @@ dependencies[] = acadre_esdh
 dependencies[] = os2web_esdh_provider
 dependencies[] = os2dagsorden_print_meetings
 dependencies[] = os2dagsorden_pdf2htmlex
+dependencies[] = os2web_print_send_to_friend
 
 ;OS2Web Features
 dependencies[] = os2web_settings
