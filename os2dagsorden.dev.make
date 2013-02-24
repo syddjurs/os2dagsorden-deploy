@@ -142,6 +142,12 @@ projects[edit_own_user_account_permission][version] = "2.0-beta1"
 projects[simplify][subdir] = "contrib"
 projects[simplify][version] = "3.0"
 
+projects[smtp][subdir] = "contrib"
+projects[smtp][version] = "1.0"
+
+projects[lightbox2][subdir] = "contrib"
+projects[lightbox2][version] = "1.0-beta1"
+
 ; LDAP
 projects[ldap][subdir] = "contrib"
 projects[ldap][version] = "1.0-beta11"
