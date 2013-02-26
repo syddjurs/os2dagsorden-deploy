@@ -67,7 +67,7 @@ projects[entityreference][subdir] = "contrib"
 projects[entityreference][version] = "1.0-rc3"
 
 projects[autologout][subdir] = "contrib"
-projects[autologout][version] = "2.0-beta1"
+projects[autologout][version] = "4.x-dev"
 ;projects[autologout][patch][] = "http://drupal.org/files/autologout-7.x-2.x-dev-fix_own_mesg_on_logout.patch"
 
 projects[background_process][subdir] = "contrib"
