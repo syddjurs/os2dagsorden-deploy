@@ -47,7 +47,7 @@ projects[advanced_help][version] = "1.0"
 projects[front][subdir] = "contrib"
 projects[front][version] = "2.1"
 
-projects[ctools][subdir] = "contrib"щ
+projects[ctools][subdir] = "contrib"
 projects[ctools][version] = "1.0"
 
 projects[context][subdir] = "contrib"
