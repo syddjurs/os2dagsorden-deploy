@@ -16,6 +16,10 @@ projects[syddjurs_omega_subtheme][download][type] = "git"
 projects[syddjurs_omega_subtheme][download][url] = "git://github.com/OS2web/os2dagsorden-theme.git"
 projects[syddjurs_omega_subtheme][download][revision] = "master"
 
+; OS2Web theme base
+projects[omega][subdir] = "contrib"
+projects[omega][version] = "3.x-dev"
+
 ; OS2Dagsorden libraries
 libraries[ckeditor][download][type]= "get"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.2/ckeditor_3.6.2.zip"

@@ -18,6 +18,7 @@ projects[syddjurs_omega_subtheme][download][revision] = "master"
 
 ; OS2Web theme base
 projects[omega][subdir] = "contrib"
+projects[omega][version] = "3.x-dev"
 
 ; Development
 projects[devel][subdir] = "contrib"
@@ -46,7 +47,7 @@ projects[advanced_help][version] = "1.0"
 projects[front][subdir] = "contrib"
 projects[front][version] = "2.1"
 
-projects[ctools][subdir] = "contrib"
+projects[ctools][subdir] = "contrib"щ
 projects[ctools][version] = "1.0"
 
 projects[context][subdir] = "contrib"
