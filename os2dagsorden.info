@@ -69,12 +69,12 @@ dependencies[] = edit_own_user_account_permission
 dependencies[] = smtp
 dependencies[] = lightbox2
 
-;Development - Disable on prod.
+; Development - Disable on prod.
 ;dependencies[] = features_tools
 ;dependencies[] = devel
 ;dependencies[] = devel_generate
 
-;OS2Dagsorden modules
+; OS2Dagsorden modules
 dependencies[] = os2dagsorden_access_helper
 dependencies[] = os2dagsorden_adlib_api
 dependencies[] = os2dagsorden_annotator
@@ -87,10 +87,10 @@ dependencies[] = os2dagsorden_print_meetings
 dependencies[] = os2dagsorden_pdf2htmlex
 dependencies[] = os2web_print_send_to_friend
 
-;OS2Web Features
+; OS2Web Features
 dependencies[] = os2web_settings
 
-;OS2Dagsorden Features
+; OS2Dagsorden Features
 dependencies[] = os2dagsorden_ad_integration
 dependencies[] = os2dagsorden_automated_logout_configuration
 dependencies[] = os2dagsorden_blocks_positioning
@@ -103,7 +103,3 @@ dependencies[] = os2dagsorden_rules_and_permissions
 dependencies[] = os2dagsorden_settings
 dependencies[] = os2dagsorden_sidepane_menu
 dependencies[] = os2dagsorden_ultimate_cron_configuration
-
-
-files[] = os2dagsorden.profile
-files[] = os2dagsorden.install

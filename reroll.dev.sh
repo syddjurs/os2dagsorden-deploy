@@ -16,11 +16,11 @@
 DATE=`date +%Y%m%d%H%M`
 
 # The newly builed dir
-BUILD_DIR=master-$DATE
+BUILD_DIR=dev-$DATE
 # The previous build dir
-BUILD_DIR_PREV=master-previous
+BUILD_DIR_PREV=dev-previous
 # The build dir with latest build
-BUILD_DIR_LATEST=master-latest
+BUILD_DIR_LATEST=dev-latest
 
 # The Source Profile name
 # This is a special case, where multiple profiles are in same dir.
@@ -36,7 +36,7 @@ DRUPAL_ROOT=$(dirname `pwd`)/public_html
 
 mkdir -p build/$BUILD_DIR
 
-drush make --no-gitinfofile -y --no-core --contrib-destination=build/$BUILD_DIR $PROFILE_SRC.make
+drush make --no-gitinfofile -y --no-core --working-copy --contrib-destination=build/$BUILD_DIR $PROFILE_SRC.dev.make
 
 ### Code below can be in seperate file. source execute file from here. ###
 # . ./deploy.sh
