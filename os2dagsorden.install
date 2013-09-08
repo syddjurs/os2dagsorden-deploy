@@ -79,13 +79,13 @@ function os2dagsorden_install() {
   $full_html_format = (object) $full_html_format;
   filter_format_save($full_html_format);
 
-  theme_enable(array('syddjurs_omega_subtheme'));
+  theme_enable(array('os2dagsorden_theme'));
   theme_disable(array('bartik'));
   //turn off notification error messages
   variable_set('error_level', ERROR_REPORTING_DISPLAY_SOME);
 
   //Set current theme
-  variable_set('theme_default', 'syddjurs_omega_subtheme');
+  variable_set('theme_default', 'os2dagsorden_theme');
   
   // Set admin theme to Seven
   variable_set('admin_theme', 'seven');
