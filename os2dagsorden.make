@@ -10,10 +10,10 @@ projects[os2web][download][url] = "git://github.com/bellcom/os2dagsorden.git"
 projects[os2web][download][revision] = "dev"
 
 ; OS2Dagsorden Theme
-projects[syddjurs_omega_subtheme][type] = "theme"
-projects[syddjurs_omega_subtheme][download][type] = "git"
-projects[syddjurs_omega_subtheme][download][url] = "git://github.com/bellcom/os2dagsorden-theme.git"
-projects[syddjurs_omega_subtheme][download][revision] = "dev"
+projects[os2dagsorden_theme][type] = "theme"
+projects[os2dagsorden_theme][download][type] = "git"
+projects[os2dagsorden_theme][download][url] = "git://github.com/bellcom/os2dagsorden-theme.git"
+projects[os2dagsorden_theme][download][revision] = "dev"
 
 ; OS2Web theme base
 projects[omega][subdir] = "contrib"
