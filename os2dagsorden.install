@@ -1,35 +1,5 @@
 <?php
 /**
- * Implement hook_install_tasks().
- *
- * Perform some post-install tasks.
- */
-function os2dagsorden_install_tasks() {
-  $task['block_titles'] = array(
-      'display_name' => st('Change block titles'),
-      'display' => true,
-      'type' => 'batch',
-      'run' => INSTALL_TASK_RUN_IF_NOT_COMPLETED,
-      'function' => 'os2dagsorden_change_block_titles',
-      );
-      
-  return $task;
-}
-
-/**
- * The funtion will change the titles of some custom blocks.
- * The block titles are for some reasons unavailable for strongarm to grab.
- */
-function os2dagsorden_change_block_titles() {
-  //update custom blocks' title
-  db_update('block')->fields(array(
-    'title' => 'Søg',
-  ))
-  ->condition('delta', '-exp-meetings_search-page', '=')
-  ->execute();
-}
-
-/**
  * Implement hook_install().
  *
  * Perform actions to set up the site for this profile.
