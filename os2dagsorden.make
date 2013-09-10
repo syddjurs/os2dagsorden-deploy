@@ -58,6 +58,7 @@ projects[calendar][version] = "3.0"
 
 projects[date][subdir] = "contrib"
 projects[date][version] = "2.5"
+projects[date][patch][] = "https://drupal.org/files/date-views-default-arg-options-1202248-16.patch"
 
 projects[features][subdir] = "contrib"
 projects[features][version] = "1.0"
