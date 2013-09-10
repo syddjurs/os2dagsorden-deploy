@@ -149,6 +149,9 @@ projects[smtp][version] = "1.0"
 projects[lightbox2][subdir] = "contrib"
 projects[lightbox2][version] = "1.0-beta1"
 
+projects[jquery_colorpicker][subdir] = "contrib"
+projects[jquery_colorpicker][version] = "1.0-rc2"
+
 ; LDAP
 projects[ldap][subdir] = "contrib"
 projects[ldap][version] = "1.0-beta11"
