@@ -86,6 +86,7 @@ dependencies[] = os2web_esdh_provider
 dependencies[] = os2dagsorden_print_meetings
 dependencies[] = os2dagsorden_pdf2htmlex
 dependencies[] = os2web_print_send_to_friend
+dependencies[] = os2web_audit_log
 
 ; OS2Web Features
 dependencies[] = os2web_settings
