@@ -1,5 +1,34 @@
 <?php
 /**
+ * Implement hook_install_tasks().
+ *
+ */
+function os2dagsorden_install_tasks($install_state){
+	$tasks = array();
+	$tasks['revert_features'] = array(
+	  'display_name' => st('Revert all features'),
+	  'display' => TRUE,
+	  'type' => 'normal',
+	  'run' => INSTALL_TASK_RUN_IF_REACHED,
+	  'function' => 'os2dagsorden_revert_all_features',
+	);
+	return $tasks;
+}
+
+/**
+ * Task to revert all features.
+ *
+ */
+function os2dagsorden_revert_all_features(){
+  features_revert();
+  
+    //setting Danish as default language
+  $languages = language_list();
+  debug($languages);
+  //variable_set('default_language', $languages['da']);
+}
+
+/**
  * Implement hook_install().
  *
  * Perform actions to set up the site for this profile.
