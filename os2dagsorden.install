@@ -21,11 +21,6 @@ function os2dagsorden_install_tasks($install_state){
  */
 function os2dagsorden_revert_all_features(){
   features_revert();
-  
-    //setting Danish as default language
-  $languages = language_list();
-  debug($languages);
-  //variable_set('default_language', $languages['da']);
 }
 
 /**
