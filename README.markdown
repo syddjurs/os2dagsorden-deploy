@@ -17,6 +17,7 @@ Install an OS2Dagsorden Installation via .make
 6. `ln -s ../../os2dagsorden-deploy/build/dev-latest os2dagsorden`
 
 Reroll the modules and contrib modules specified in os2dagsorden.make:
+
 7. `cd ../../os2dagsorden-deploy`
 8. `./reroll.dev.sh`
 
