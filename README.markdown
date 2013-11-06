@@ -11,13 +11,15 @@ Install an OS2Dagsorden Installation via .make
 
 1. Install Drush http://drupal.org/projects/drush
 2. `cd [site dir]`
-3. `drush dl drupal-7.22 --drupal-project-rename=public_html`
-5. `git clone git@github.com:OS2web/os2dagsorden-deploy.git`
-6. `cd public_html/profiles`
-7. `ln -s ../../os2dagsorden-deploy/build/master-latest os2dagsorden`
+3. `drush dl drupal-7.23 --drupal-project-rename=public_html`
+4. `git clone http://github.com/bellcom/os2dagsorden-deploy.git`
+5. `cd public_html/profiles`
+6. `ln -s ../../os2dagsorden-deploy/build/dev-latest os2dagsorden`
 
 Reroll the modules and contrib modules specified in os2dagsorden.make:
-- `./reroll.sh`
+
+7. `cd ../../os2dagsorden-deploy`
+8. `./reroll.dev.sh`
 
 If you need a custom os2dagsorden installation with your own profile. The recommended approach is to fork this repo.
 
