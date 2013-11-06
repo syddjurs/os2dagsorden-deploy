@@ -110,7 +110,7 @@ projects[print][subdir] = "contrib"
 projects[print][version] = "1.1"
 
 projects[rules][subdir] = "contrib"
-projects[rules][version] = "2.1"
+projects[rules][version] = "2.3"
 
 projects[delta][subdir] = "contrib"
 projects[delta][version] = "3.0-beta11"
