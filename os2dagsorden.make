@@ -134,6 +134,7 @@ projects[views][patch][] = "https://raw.github.com/OS2web/os2dagsorden/dev/patch
 
 projects[views_php][subdir] = "contrib"
 projects[views_php][version] = "1.x-dev"
+projects[views_php][patch] = "https://drupal.org/files/views_php-access_fix-1381562.patch"
 
 projects[better_exposed_filters][subdir] = "contrib"
 projects[better_exposed_filters][version] = "3.0-beta1"
