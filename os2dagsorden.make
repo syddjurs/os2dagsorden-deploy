@@ -115,6 +115,9 @@ projects[rules][version] = "2.3"
 projects[delta][subdir] = "contrib"
 projects[delta][version] = "3.0-beta11"
 
+projects[file_lock][subdir] = "contrib"
+projects[file_lock][version] = "2.x-dev"
+
 projects[omega_tools][subdir] = "contrib"
 projects[omega_tools][version] = "3.0-rc4"
 
