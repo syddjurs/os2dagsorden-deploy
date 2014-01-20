@@ -116,10 +116,13 @@ projects[print][subdir] = "contrib"
 projects[print][version] = "1.1"
 
 projects[rules][subdir] = "contrib"
-projects[rules][version] = "2.1"
+projects[rules][version] = "2.3"
 
 projects[delta][subdir] = "contrib"
 projects[delta][version] = "3.0-beta11"
+
+projects[file_lock][subdir] = "contrib"
+projects[file_lock][version] = "2.x-dev"
 
 projects[omega_tools][subdir] = "contrib"
 projects[omega_tools][version] = "3.0-rc4"
@@ -140,6 +143,7 @@ projects[views][patch][] = "https://raw.github.com/OS2web/os2dagsorden/dev/patch
 
 projects[views_php][subdir] = "contrib"
 projects[views_php][version] = "1.x-dev"
+projects[views_php][patch] = "https://drupal.org/files/views_php-access_fix-1381562.patch"
 
 projects[better_exposed_filters][subdir] = "contrib"
 projects[better_exposed_filters][version] = "3.0-beta1"
