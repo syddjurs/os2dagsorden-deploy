@@ -12,14 +12,8 @@ projects[os2web][download][revision] = "dev"
 ; OS2Dagsorden Theme
 projects[os2dagsorden_theme][type] = "theme"
 projects[os2dagsorden_theme][download][type] = "git"
-projects[os2dagsorden_theme][download][url] = "git://github.com/bellcom/os2dagsorden-theme.git"
+projects[os2dagsorden_theme][download][url] = "git://github.com/syddjurs/os2dagsorden-theme.git"
 projects[os2dagsorden_theme][download][revision] = "dev"
-
-projects[os2dagsorden_theme_syddjurs][type] = "theme"
-projects[os2dagsorden_theme_syddjurs][download][type] = "git"
-projects[os2dagsorden_theme_syddjurs][download][url] = "git://github.com/syddjurs/os2dagsorden-theme.git"
-projects[os2dagsorden_theme_syddjurs][download][revision] = "dev"
-
 
 ; OS2Web theme base
 projects[omega][subdir] = "contrib"

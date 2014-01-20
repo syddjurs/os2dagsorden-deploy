@@ -101,3 +101,10 @@ dependencies[] = os2dagsorden_rules_and_permissions
 dependencies[] = os2dagsorden_settings
 dependencies[] = os2dagsorden_sidepane_menu
 dependencies[] = os2dagsorden_ultimate_cron_configuration
+
+; OS2Dagsorden Syddjurs specific
+dependencies[] = acadre_esdh
+dependencies[] = os2dagsorden_acadre_meeting_reimport
+dependencies[] = os2dagsorden_ad_integration
+dependencies[] = os2dagsorden_adlib_api
+dependencies[] = os2dagsorden_importer
